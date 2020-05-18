@@ -9,6 +9,9 @@ import {
   NavLink
 } from 'reactstrap';
 
+import logo from "./SJB.png";
+import './NavBar.css';
+
 function NavBar () {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,19 +19,19 @@ function NavBar () {
 
   return (
     <div>
-      <Navbar expand="md">
-        <NavbarBrand href="/"><img src="SJB.png" alt="NavBar brand"/></NavbarBrand>
+      <Navbar className="NavBar" color="dark" dark expand="md">
+        <NavbarBrand className="NavBar-brand" href="/"><img src={logo} alt="NavBar brand"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink href="/about/">About</NavLink>
+          <Nav className="NavBar-nav ml-auto " navbar>
+            <NavItem className="Navbar-item">
+              <NavLink className="NavBar-link" href="/about/">About</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/projects/">Projects</NavLink>
+            <NavItem className="Navbar-item">
+              <NavLink className="NavBar-link" href="/projects/">Projects</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/connect/">Connect</NavLink>
+            <NavItem className="Navbar-item">
+              <NavLink className="NavBar-link" href="/connect/">Connect</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
