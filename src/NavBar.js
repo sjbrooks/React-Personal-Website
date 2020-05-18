@@ -1,37 +1,38 @@
 import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
 import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
-  NavItem,
-  NavLink
+  NavItem
 } from 'reactstrap';
 
 import logo from "./SJB.png";
 import './NavBar.css';
 
-function NavBar () {
+function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <Navbar className="NavBar" color="dark" dark expand="md">
-        <NavbarBrand className="NavBar-brand" href="/"><img src={logo} alt="NavBar brand"/></NavbarBrand>
+      <Navbar dark expand="md">
+        <NavLink exact to="/" className="navbar-brand">
+          <img src={logo} alt="NavBar brand" />
+        </NavLink>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="NavBar-nav ml-auto " navbar>
-            <NavItem className="Navbar-item">
-              <NavLink className="NavBar-link" href="/about/">About</NavLink>
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink to="/about">ABOUT</NavLink>
             </NavItem>
-            <NavItem className="Navbar-item">
-              <NavLink className="NavBar-link" href="/projects/">Projects</NavLink>
+            <NavItem>
+              <NavLink to="/projects">PROJECTS</NavLink>
             </NavItem>
-            <NavItem className="Navbar-item">
-              <NavLink className="NavBar-link" href="/connect/">Connect</NavLink>
+            <NavItem>
+              <NavLink to="/connect">CONNECT</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

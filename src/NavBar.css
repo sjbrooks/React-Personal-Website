@@ -1,42 +1,53 @@
-nav.navbar.navbar-expand-md {
+nav {
   background-color: black;
 }
 
-.NavBar-brand img {
+.navbar-brand img {
   width: 4rem;
 }
 
 .nav-item {
-  width: 100px;
-  text-align: center;
+  width: 5rem;
+  text-align: left;
+  margin: 0.7rem;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 3px;
 }
 
-.navbar-nav a {
+nav a {
   color: #f0f2f5;
   text-decoration: none;
+  padding: 0 0 5px 0;
 }
 
-.NavBar-nav a.active {
+nav a.active {
   color: #f0f2f5;
   font-weight: bold;
-  border-bottom: 5px dotted !important;
+  border-bottom: 3px solid;
   box-sizing: border-box;
 }
 
-.navbar-nav a.active:hover {
+nav a.active:hover {
   color: #f0f2f5 !important;
 }
 
-.navbar-nav a:hover {
+nav a:hover {
   text-decoration: none;
-  color: #f0f2f5;
+  color: #c9cbce;
 }
 
-.navbar-nav a.active.navbar-brand {
+nav a.active.navbar-brand {
   border-bottom: none;
 }
 
-.navbar-nav a:not(.navbar-brand):hover {
+nav a:not(.navbar-brand):hover {
   font-weight: bold;
 }
 
+
+@media screen and (min-width: 900px) {
+  .nav-item {
+    text-align: center;
+  }
+}
