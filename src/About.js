@@ -14,7 +14,7 @@ import './About.css';
 function About() {
   return (
     <div className="About">
-      <h1>About page to come</h1>
+      <h1>ABOUT</h1>
     </div>
   );
 }

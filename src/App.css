@@ -5,3 +5,10 @@
 body {
   font-family: 'Avenir', 'Montserrat', sans-serif;
 }
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}

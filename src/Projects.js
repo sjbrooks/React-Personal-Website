@@ -4,17 +4,22 @@
  *
  * State: (none)
  * 
- * Children: X components
+ * Children: Uses ParagraphCard component
  */
 
- 
+
 import React from 'react';
 import './Projects.css';
+import ParagraphCard from './ParagraphCard';
 
 function Projects() {
+
+  const headline = "PROJECTS";
+  const paragraphs = ["More to come"];
+
   return (
     <div className="Projects">
-      <h1>Projects page to come</h1>
+      <ParagraphCard headline={headline} paragraphs={paragraphs} />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.ParagraphCard {
+  margin: 3rem auto;
+  width: 75%;
+}
+
+.ParagraphCard-text {
+  margin: 1.5rem auto;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

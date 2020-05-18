@@ -1,5 +1,6 @@
 nav {
   background-color: black;
+  position: fixed; 
 }
 
 .navbar-brand img {
