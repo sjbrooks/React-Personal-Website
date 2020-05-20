@@ -1,9 +1,44 @@
-.About-headshot {
-  width: 30rem;
-  position: relative;
-  left: 4rem;
+.About-container {
+  width: 90%;
+  display: inline;
 }
 
-.About-ParagraphCard, .About-headshot {
-  display: inline-block;
+.About-headshot {
+  width: 20rem;
+  position: relative;
+  top: 8rem;
+}
+
+.About-headshot img {
+  position: relative;
+  left: 40%;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.About-ParagraphCard {
+  position: relative;
+  top: 3rem;
+  width: 80%;
+}
+
+@media screen and (min-width: 760px) {
+  .About-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .About-headshot img {
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+  }
+
+  .About-ParagraphCard {
+    position: relative;
+    top: 3rem;
+    width: 100%;
+  }
 }

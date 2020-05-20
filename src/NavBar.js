@@ -18,9 +18,10 @@ function NavBar() {
 
   return (
     <div>
-      <Navbar dark expand="md">
+      <Navbar light expand="md">
         <NavLink exact to="/" className="navbar-brand">
-          <img src={logo} alt="NavBar brand" />
+          <p>SJB</p>
+          {/* <img src={logo} alt="NavBar brand" /> */}
         </NavLink>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

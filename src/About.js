@@ -11,7 +11,7 @@
 import React from 'react';
 import './About.css';
 import ParagraphCard from './ParagraphCard';
-import headshot from './Sarah Headshot.png'
+import headshot from './headshot-color.jpg'
 
 function About() {
 
@@ -24,9 +24,13 @@ function About() {
 
 
   return (
-    <div className="About">
-      <img className="About-headshot" src={headshot} alt="Sarah Brooks Headshot" />
-      <ParagraphCard className="About-ParagraphCard" headline={headline} paragraphs={paragraphs} />
+    <div className="About-container">
+      <div className="About-headshot">
+        <img src={headshot} alt="Sarah Brooks Headshot" />
+      </div>
+      <div className="About-ParagraphCard">
+        <ParagraphCard headline={headline} paragraphs={paragraphs} />
+      </div>
     </div>
   );
 }

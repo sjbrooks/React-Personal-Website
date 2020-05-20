@@ -1,8 +1,8 @@
 .ParagraphCard {
   position: relative;
-  top: 13rem;
-  left: 7rem;
-  width: 50%;
+  top: 8rem;
+  left: 4rem;
+  width: 100%;
   display: inline-block;
 }
 
@@ -10,4 +10,11 @@
   margin: 1.5rem auto;
   font-size: 0.9rem;
   letter-spacing: 1px;
+}
+
+@media screen and (min-width: 760px) {
+  .ParagraphCard {
+    width: 80%;
+    left: 12rem;
+  }
 }
