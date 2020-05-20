@@ -1,12 +1,14 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 body {
   font-family: 'Avenir', 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 h1 {
+  margin: 0px;
   font-family: 'Archivo Black', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.5rem;

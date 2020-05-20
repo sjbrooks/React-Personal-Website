@@ -3,9 +3,9 @@
  * Props: (none)
  *
  * State: (none)
- * 
+ *
  * Parent: Used in App component
- * 
+ *
  * Children: Uses Home, About, Projects, Connect components
  */
 
@@ -17,10 +17,9 @@ import {
   Redirect
 } from 'react-router-dom';
 
-import Home from "./Home"
-import About from "./About"
-import Projects from "./Projects"
-import Connect from "./Connect"
+import About from "./About";
+import Projects from "./Projects";
+import Connect from "./Connect";
 
 
 function Routes() {
@@ -28,7 +27,7 @@ function Routes() {
   return (
     <Switch>
       <Route exact path="/">
-        <Home />
+        <About />
       </Route>
 
       <Route exact path="/about">

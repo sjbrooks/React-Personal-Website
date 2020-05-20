@@ -1,6 +1,9 @@
-nav {
+nav.navbar.navbar-expand-md.navbar-dark {
   background-color: black;
-  position: fixed; 
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
 }
 
 .navbar-brand img {

@@ -1,6 +1,9 @@
 .ParagraphCard {
-  margin: 3rem auto;
-  width: 75%;
+  position: relative;
+  top: 13rem;
+  left: 7rem;
+  width: 50%;
+  display: inline-block;
 }
 
 .ParagraphCard-text {

@@ -1,0 +1,9 @@
+.About-headshot {
+  width: 30rem;
+  position: relative;
+  left: 4rem;
+}
+
+.About-ParagraphCard, .About-headshot {
+  display: inline-block;
+}
