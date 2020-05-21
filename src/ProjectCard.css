@@ -1,0 +1,30 @@
+.ProjectCard {
+  margin: 3rem 0;
+}
+
+.ProjectCard-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 3rem;
+}
+
+.ProjectCard-img {
+  width: 20rem;
+  height: auto;
+}
+
+.ProjectCard-img img {
+  width: 100%;
+}
+
+.ProjectCard-text {
+  width: 90%;
+}
+
+.ProjectCard-headline {
+  font-family: 'Avenir', 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
