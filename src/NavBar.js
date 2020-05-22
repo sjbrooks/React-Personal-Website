@@ -8,7 +8,6 @@ import {
   NavItem
 } from 'reactstrap';
 
-import logo from "./SJB.png";
 import './NavBar.css';
 
 function NavBar() {
@@ -21,7 +20,6 @@ function NavBar() {
       <Navbar light expand="md">
         <NavLink exact to="/" className="navbar-brand">
           <p>SJB</p>
-          {/* <img src={logo} alt="NavBar brand" /> */}
         </NavLink>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

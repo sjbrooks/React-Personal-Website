@@ -13,6 +13,7 @@ import './Projects.css';
 import ParagraphCard from './ParagraphCard';
 import ProjectCard from './ProjectCard';
 import matchingGame from './Matching Game.gif';
+import jobly from './Jobly.gif';
 
 function Projects() {
 
@@ -20,6 +21,11 @@ function Projects() {
   const paragraphs = ["The following apps are built with javascript, python, HTML, and CSS, and use a mix of React, Flask, and Express libraries"];
 
   const projects = [
+    {
+      img: jobly,
+      projectName: "Jobly",
+      text: "Fullstack Javascript job application app using React on the frontend and Express in the backend."
+    },
     {
       img: matchingGame,
       projectName: "Memory Card Game",

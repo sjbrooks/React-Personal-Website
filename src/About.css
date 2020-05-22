@@ -1,6 +1,5 @@
 .About-container {
   width: 90%;
-  display: inline;
 }
 
 .About-headshot {
@@ -22,6 +21,25 @@
   top: 3rem;
   left: 5rem;
   width: 80%;
+  height: auto;
+}
+
+.resume-download {
+  background-color: rgb(252, 245, 245);
+  border: solid 2px #e33517;
+  color:  #e33517;
+  font-weight: 900;
+  font-size: 0.8rem;
+  padding: 1rem;
+  width: 15rem;
+  position: relative;
+  top: 2rem;
+  text-decoration: none;
+}
+
+.resume-download:hover {
+  text-decoration: none;
+  color: #e33617b0;
 }
 
 @media screen and (min-width: 760px) {
