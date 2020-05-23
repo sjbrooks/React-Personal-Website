@@ -15,7 +15,7 @@ import ParagraphCard from './ParagraphCard';
 function Connect() {
 
   const headline = "CONNECT";
-  const paragraphs = ["Connect with me on LinkedIn or GitHub!"];
+  const paragraphs = [];
 
   return (
     <div className="Connect">

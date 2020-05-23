@@ -4,12 +4,12 @@
   left: 2rem;
   width: 50%;
   display: grid;
-  grid-template-columns: 12rem 12rem;
+  grid-template-columns: 8rem 8rem;
 }
 
 .fab.fa-linkedin, .fab.fa-github {
   font-size: 5rem;
-  margin: 5rem;
+  margin: 5rem 3rem;
 }
 
 .Connect a {
@@ -20,4 +20,13 @@
 .Connect a:hover {
   text-decoration: none;
   color: rgb(66, 61, 61);
+}
+
+@media screen and (min-width: 760px) {
+  .fab.fa-linkedin, .fab.fa-github {
+    margin: 5rem;
+  }
+  .Connect-logo-container {
+    grid-template-columns: 12rem 12rem;
+  }
 }

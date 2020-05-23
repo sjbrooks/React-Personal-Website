@@ -1,6 +1,19 @@
+.Projects {
+  width: 82%;
+}
+
 .projectCards {
-  margin: 3rem;
+  margin: 0;
   position: relative;
   top: 6rem;
   left: 4rem;
+}
+
+@media screen and (min-width: 760px) {
+  .projectCards {
+    margin: 3rem;
+  }
+  .Projects {
+    width: 95%;
+  }
 }

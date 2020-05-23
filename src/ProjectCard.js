@@ -14,19 +14,20 @@ import React from 'react';
 import './ProjectCard.css';
 
 
-function ProjectCard({ project: { img, projectName, text } }) {
+function ProjectCard({ project: { img, projectName, text, demoLink, githubLink } }) {
 
   return (
     <div className="ProjectCard">
       <div className="ProjectCard-container">
         <div className="ProjectCard-img">
-          <img src={img} alt={projectName} />
+          <a href={demoLink}><img src={img} alt={projectName} /></a>
         </div>
         <div className="ProjectCard-text">
           <h1 className="ProjectCard-headline">
             {projectName.toUpperCase()}
           </h1>
           {text}
+          <p className="project-links">View <a href={demoLink}>demo</a>. View on <a href={githubLink}>GitHub</a>.</p>
         </div>
       </div>
     </div>

@@ -1,16 +1,17 @@
 .About-container {
-  width: 90%;
+  padding: 0 0 5rem 0;
+  width: 85%;
 }
 
 .About-headshot {
-  width: 20rem;
+  width: 70%;
   position: relative;
   top: 8rem;
 }
 
 .About-headshot img {
   position: relative;
-  left: 40%;
+  left: 35%;
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -19,9 +20,11 @@
 .About-ParagraphCard {
   position: relative;
   top: 3rem;
-  left: 5rem;
-  width: 80%;
   height: auto;
+}
+
+.resume-download-container {
+  padding: 0 0 5rem 0;
 }
 
 .resume-download {
@@ -44,20 +47,26 @@
 
 @media screen and (min-width: 760px) {
   .About-container {
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  .About-headshot {
+    width: 20rem;
+  }
+
   .About-headshot img {
     position: relative;
-    left: 5rem;
+    left: 15%;
     top: 2rem;
   }
 
   .About-ParagraphCard {
     position: relative;
     top: 3rem;
+    left: 5rem;
     width: 100%;
   }
 }

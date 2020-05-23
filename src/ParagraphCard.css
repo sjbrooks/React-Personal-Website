@@ -2,7 +2,7 @@
   position: relative;
   top: 8rem;
   left: 4rem;
-  width: 100%;
+  width: 82%;
   display: inline-block;
 }
 
@@ -14,7 +14,6 @@
 
 @media screen and (min-width: 760px) {
   .ParagraphCard {
-    width: 80%;
     left: 7rem;
   }
 }
