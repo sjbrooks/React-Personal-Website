@@ -25,14 +25,14 @@ const projects = [
     projectName: "Portfolio React App",
     text: "I built my personal site as a React App to make it quicker to navigate around and help solidify my knowledge of client-side routing and React app deployment. The app features a simple hierarchy with components for the NavBar, each page of the website, and a few additional shared presentational components for formatting across pages, like the ParagraphCard (holding the title and paragraph text).",
     demoLink: "http://sjbrooks.com/",
-    githubLink: "https://github.com/sjbrooks/"
+    githubLink: "https://github.com/sjbrooks/React-Personal-Website"
   },
   {
     img: jeopardy,
     projectName: "Jeopardy Game",
-    text: "Game that I built early on in my Rithm bootcamp experience as a part of an assignment to get comfortable working with axios, external APIs, and jQuery. Upon clicking start, it makes a call to jservice to pull a random set of categories, and a random set of questions for each category. Using the jservice response, the game dynamically generates an HTML board with each cell holding a question mark, the question, and answer. Upon clicking a cell, a class is toggled to determine which of those three to show. At any point, the user can draw a new board and new questions by pressing restart. Note: Because this was part of an assessment, I can't share the repo for this project so I've linked to my GitHub profile instead.",
+    text: "Game that I built early on in my Rithm bootcamp experience as a part of an assignment to get comfortable working with axios, external APIs, and jQuery. Upon clicking start, it makes a call to jservice to pull a random set of categories, and a random set of questions for each category. Using the jservice response, the game dynamically generates an HTML board with each cell holding a question mark, the question, and answer. Upon clicking a cell, a class is toggled to determine which of those three to show. At any point, the user can draw a new board and new questions by pressing restart. Note: Because this was part of an assessment, I can't share the repo for this project so I've linked to my general GitHub profile instead.",
     demoLink: "http://jeopardy.demo.sjbrooks.com",
-    githubLink: "#"
+    githubLink: "https://github.com/sjbrooks/"
   },
   {
     img: memoryCardGame,
