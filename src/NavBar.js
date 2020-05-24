@@ -1,3 +1,12 @@
+/** NavBar: Component that renders the navbar on each page
+ *
+ * Props: (none)
+ *
+ * State: isOpen, which identifies whether the toggle menu bar is open
+ *
+ * Children: reactstrap Navbar components
+ */
+
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import {

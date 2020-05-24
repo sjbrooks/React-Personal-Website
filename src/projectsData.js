@@ -14,18 +14,18 @@ const projects = [
     githubLink: "https://github.com/sjbrooks/React-Jobly"
   },
   {
-    img: personalSite,
-    projectName: "Portfolio React App",
-    text: "I built my personal site as a React App to help solify my knowledge of client-side routing and deployment. App features a simple hierarchy with components for the NavBar, each page of the website, and a few additional shared presentational components for formatting across pages, like the ParagraphCard (holding the title and paragraph text).",
-    demoLink: "http://sjbrooks.com/",
-    githubLink: "https://github.com/sjbrooks/Warbler"
-  },
-  {
     img: warbler,
     projectName: "Warbler Flask App",
     text: "Twitter clone, fullstack Python app with Flask backend, PostgreSQL database, and Jinja-based templating for the frontend. I built off of a somewhat functional clone to add the logout route with succes/failure alerts, fixed the user profile and user card UI to show the user's info and image, added routes and a form to give logged in users the ability to edit their profile, fixed the homepage query to show only the most recent 100 warbles from users that the user is following, added the ability to like and dislike messages, and wrote unit tests for the models and integration tests for the views. This project taught me the importance of good documentation to stay organized in larger code bases, as well as discipline around writing a robust set of tests.",
     demoLink: "https://r15-warbler.herokuapp.com/",
     githubLink: "https://github.com/sjbrooks/Warbler"
+  },
+  {
+    img: personalSite,
+    projectName: "Portfolio React App",
+    text: "I built my personal site as a React App to make it quicker to navigate around and help solidify my knowledge of client-side routing and React app deployment. The app features a simple hierarchy with components for the NavBar, each page of the website, and a few additional shared presentational components for formatting across pages, like the ParagraphCard (holding the title and paragraph text).",
+    demoLink: "http://sjbrooks.com/",
+    githubLink: "https://github.com/sjbrooks/"
   },
   {
     img: jeopardy,
