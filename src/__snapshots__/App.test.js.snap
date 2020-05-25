@@ -1,0 +1,545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio site routes renders the connect page 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+      >
+        <a
+          class="navbar-brand"
+          href="/"
+        >
+          <p>
+            SJB
+          </p>
+        </a>
+        <button
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="collapse navbar-collapse"
+        >
+          <ul
+            class="ml-auto navbar-nav"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/about"
+              >
+                ABOUT
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/projects"
+              >
+                PROJECTS
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                aria-current="page"
+                class="active"
+                href="/connect"
+              >
+                CONNECT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="Connect"
+    >
+      <div
+        class="ParagraphCard"
+      >
+        <h1>
+          CONNECT
+        </h1>
+        <div
+          class="ParagraphCard-text"
+        />
+      </div>
+      <div
+        class="Connect-logo-container"
+      >
+        <a
+          href="https://www.linkedin.com/in/sarahjbrooks/"
+        >
+          <i
+            class="fab fa-linkedin"
+          />
+        </a>
+        <a
+          href="https://github.com/sjbrooks"
+        >
+          <i
+            class="fab fa-github"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Portfolio site routes renders the home snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+      >
+        <a
+          aria-current="page"
+          class="navbar-brand active"
+          href="/"
+        >
+          <p>
+            SJB
+          </p>
+        </a>
+        <button
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="collapse navbar-collapse"
+        >
+          <ul
+            class="ml-auto navbar-nav"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/about"
+              >
+                ABOUT
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/projects"
+              >
+                PROJECTS
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/connect"
+              >
+                CONNECT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="About-container"
+    >
+      <div
+        class="About-headshot"
+      >
+        <img
+          alt="Sarah Brooks Headshot"
+          src="headshot-color.jpg"
+        />
+      </div>
+      <div
+        class="About-ParagraphCard"
+      >
+        <div
+          class="ParagraphCard"
+        >
+          <h1>
+            ABOUT
+          </h1>
+          <div
+            class="ParagraphCard-text"
+          >
+            <p>
+              I’m Sarah, a brand consultant turned programmer. Also an animal-lover, pasta enthusiast, and jump-roper. I’ve been interested in coding since I was 10, when I taught myself enough to create a blog. Since then, I’ve taken several programming classes in college and taught myself Javascript on the side.
+            </p>
+            <p>
+              I started my career in brand strategy consulting, where, among other projects, I got to build a lifestyle brand for the US Women's National Team, conduct consumer research in Chile, and reposition a big software company in the Bay Area. I learned how to break problems into their component parts, structure my thinking, and persuade others, but I always found myself wanting to spend more time learning how the things I was branding worked – from peripheral catheters to design software.
+            </p>
+            <p>
+              From that came a reinvigorated interest in engineering, and specifically coding, as a means of understanding how things we interact with every day are built. Last summer, I decided to make a career change based on that interest, and I’ve been coding daily since. My goals coming out of coding bootcamp are to take a software engineering role where I can continue to learn and grow, represent women in tech, and eventually use my skills for social impact.
+            </p>
+            <p>
+              <span
+                class="resume-download-container"
+              >
+                <a
+                  class="resume-download"
+                  download=""
+                  href="/Sarah Brooks Resume.pdf"
+                >
+                  DOWNLOAD RESUME
+                </a>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Portfolio site routes renders the projects page 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+      >
+        <a
+          class="navbar-brand"
+          href="/"
+        >
+          <p>
+            SJB
+          </p>
+        </a>
+        <button
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="collapse navbar-collapse"
+        >
+          <ul
+            class="ml-auto navbar-nav"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/about"
+              >
+                ABOUT
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                aria-current="page"
+                class="active"
+                href="/projects"
+              >
+                PROJECTS
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/connect"
+              >
+                CONNECT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="Projects"
+    >
+      <div
+        class="ParagraphCard"
+      >
+        <h1>
+          PROJECTS
+        </h1>
+        <div
+          class="ParagraphCard-text"
+        >
+          <p>
+            I built the following apps and games using a mix of Javascript (plain, React for frontend, Express for backend), Python (Flask for backend), PostgreSQL database, HTML, and CSS.
+          </p>
+        </div>
+      </div>
+      <div
+        class="projectCards"
+      >
+        <div
+          class="ProjectCard"
+        >
+          <div
+            class="ProjectCard-container"
+          >
+            <div
+              class="ProjectCard-img"
+            >
+              <a
+                href="http://jobly.demo.sjbrooks.com/"
+              >
+                <img
+                  alt="Jobly React App"
+                  src="Jobly.gif"
+                />
+              </a>
+            </div>
+            <div
+              class="ProjectCard-text"
+            >
+              <h1
+                class="ProjectCard-headline"
+              >
+                JOBLY REACT APP
+              </h1>
+              Fullstack Javascript job searching and connecting app built with a React frontend, PostgreSQL database, and Express backend. App allows users to sign up or login, browse and apply for posted jobs and search them by position, browse and search hiring companies by name, and view the jobs posted by each company. It also allows users to edit their profile info. Finally, the authentication and authorization middleware protects certain routes so that only the right logged in users can view certain pages. This project taught me how to think through component hierarchy more strategically from the very beginning, which helped me better manage state throughout development. Note: Although I wrote a version of the backend separately, the deployed version of this app uses the backend written by the school (this was so that each pair could start with the same codebase when building out the React frontend).
+              <p
+                class="project-links"
+              >
+                View 
+                <a
+                  href="http://jobly.demo.sjbrooks.com/"
+                >
+                  demo
+                </a>
+                . View on 
+                <a
+                  href="https://github.com/sjbrooks/Jobly"
+                >
+                  GitHub
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ProjectCard"
+        >
+          <div
+            class="ProjectCard-container"
+          >
+            <div
+              class="ProjectCard-img"
+            >
+              <a
+                href="https://r15-warbler.herokuapp.com/"
+              >
+                <img
+                  alt="Warbler Flask App"
+                  src="Warbler.gif"
+                />
+              </a>
+            </div>
+            <div
+              class="ProjectCard-text"
+            >
+              <h1
+                class="ProjectCard-headline"
+              >
+                WARBLER FLASK APP
+              </h1>
+              Twitter clone, fullstack Python app with Flask backend, PostgreSQL database, and Jinja-based templating for the frontend. I built off of a somewhat functional clone to add the logout route with succes/failure alerts, fixed the user profile and user card UI to show the user's info and image, added routes and a form to give logged in users the ability to edit their profile, fixed the homepage query to show only the most recent 100 warbles from users that the user is following, added the ability to like and dislike messages, and wrote unit tests for the models and integration tests for the views. This project taught me the importance of good documentation to stay organized in larger code bases, as well as discipline around writing a robust set of tests.
+              <p
+                class="project-links"
+              >
+                View 
+                <a
+                  href="https://r15-warbler.herokuapp.com/"
+                >
+                  demo
+                </a>
+                . View on 
+                <a
+                  href="https://github.com/sjbrooks/Warbler"
+                >
+                  GitHub
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ProjectCard"
+        >
+          <div
+            class="ProjectCard-container"
+          >
+            <div
+              class="ProjectCard-img"
+            >
+              <a
+                href="http://sjbrooks.com/"
+              >
+                <img
+                  alt="Portfolio React App"
+                  src="PortfolioSite.gif"
+                />
+              </a>
+            </div>
+            <div
+              class="ProjectCard-text"
+            >
+              <h1
+                class="ProjectCard-headline"
+              >
+                PORTFOLIO REACT APP
+              </h1>
+              I built my personal site as a React App to make it quicker to navigate around and help solidify my knowledge of client-side routing and React app deployment. The app features a simple hierarchy with components for the NavBar, each page of the website, and a few additional shared presentational components for formatting across pages, like the ParagraphCard (holding the title and paragraph text).
+              <p
+                class="project-links"
+              >
+                View 
+                <a
+                  href="http://sjbrooks.com/"
+                >
+                  demo
+                </a>
+                . View on 
+                <a
+                  href="https://github.com/sjbrooks/React-Personal-Website"
+                >
+                  GitHub
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ProjectCard"
+        >
+          <div
+            class="ProjectCard-container"
+          >
+            <div
+              class="ProjectCard-img"
+            >
+              <a
+                href="http://jeopardy.demo.sjbrooks.com"
+              >
+                <img
+                  alt="Jeopardy Game"
+                  src="Jeopardy.gif"
+                />
+              </a>
+            </div>
+            <div
+              class="ProjectCard-text"
+            >
+              <h1
+                class="ProjectCard-headline"
+              >
+                JEOPARDY GAME
+              </h1>
+              Game that I built early on in my Rithm bootcamp experience as a part of an assignment to get comfortable working with axios, external APIs, and jQuery. Upon clicking start, it makes a call to jservice to pull a random set of categories, and a random set of questions for each category. Using the jservice response, the game dynamically generates an HTML board with each cell holding a question mark, the question, and answer. Upon clicking a cell, a class is toggled to determine which of those three to show. At any point, the user can draw a new board and new questions by pressing restart. Note: Because this was part of an assessment, I can't share the repo for this project so I've linked to my general GitHub profile instead.
+              <p
+                class="project-links"
+              >
+                View 
+                <a
+                  href="http://jeopardy.demo.sjbrooks.com"
+                >
+                  demo
+                </a>
+                . View on 
+                <a
+                  href="https://github.com/sjbrooks/"
+                >
+                  GitHub
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ProjectCard"
+        >
+          <div
+            class="ProjectCard-container"
+          >
+            <div
+              class="ProjectCard-img"
+            >
+              <a
+                href="http://memory-game.demo.sjbrooks.com"
+              >
+                <img
+                  alt="Memory Card Game"
+                  src="Matching Game.gif"
+                />
+              </a>
+            </div>
+            <div
+              class="ProjectCard-text"
+            >
+              <h1
+                class="ProjectCard-headline"
+              >
+                MEMORY CARD GAME
+              </h1>
+              Card-based memory game built using HTML, CSS, and JavaScript that I built before attending Rithm school when I was first learning about event listeners. Players win the game by matching all the cards, with the goal of winning in as few attempts as possible. The score of your best game is persisted in local storage. Player can reset the game (and reshuffle the cards) at any time.
+              <p
+                class="project-links"
+              >
+                View 
+                <a
+                  href="http://memory-game.demo.sjbrooks.com"
+                >
+                  demo
+                </a>
+                . View on 
+                <a
+                  href="https://github.com/sjbrooks/Memory-Game"
+                >
+                  GitHub
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
