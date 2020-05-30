@@ -1,5 +1,4 @@
 .About-container {
-  padding: 0 0 5rem 0;
   width: 85%;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .resume-download-container {
-  padding: 0 0 5rem 0;
+  padding: 0 0 6rem 0;
 }
 
 .resume-download {
@@ -65,8 +64,8 @@
 
   .About-ParagraphCard {
     position: relative;
-    top: 3rem;
     left: 5rem;
+    top: 0rem;
     width: 100%;
   }
 }

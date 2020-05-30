@@ -1,32 +1,34 @@
+.Connect-name {
+  font-size: 1.3rem;
+  font-weight: 400;
+  position: relative;
+  top: 0.5rem;
+}
+
 .Connect-logo-container {
   position: relative;
-  top: 5rem;
+  top: 10rem;
   left: 2rem;
   width: 50%;
   display: grid;
-  grid-template-columns: 8rem 8rem;
+  grid-template-columns: 8rem 8rem 8rem;
 }
 
-.fab.fa-linkedin, .fab.fa-github {
-  font-size: 5rem;
-  margin: 5rem 3rem;
-}
-
-.Connect a {
+.Connect a > .fas.fa-envelope-square, .Connect a > .fab.fa-linkedin, .Connect a > .fab.fa-github {
   text-decoration: none;
   color: rgb(41, 38, 38);
+  position: relative;
+  left: 5rem;
+  font-size: 5rem;
 }
 
-.Connect a:hover {
+.Connect a:hover > .fab.fa-linkedin, .Connect a:hover > .fab.fa-github, .Connect a:hover > .fas.fa-envelope-square {
   text-decoration: none;
-  color: rgb(66, 61, 61);
+  color: #e33617b0;
 }
 
 @media screen and (min-width: 760px) {
-  .fab.fa-linkedin, .fab.fa-github {
-    margin: 5rem;
-  }
   .Connect-logo-container {
-    grid-template-columns: 12rem 12rem;
+    grid-template-columns: 10rem 10rem 10rem;
   }
 }
