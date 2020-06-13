@@ -4,11 +4,11 @@
   left: 4rem;
   width: 82%;
   display: inline-block;
+  max-width: 700px;
 }
 
 .ParagraphCard-text {
   margin: 1.5rem auto;
-  font-size: 0.9rem;
   letter-spacing: 1px;
 }
 

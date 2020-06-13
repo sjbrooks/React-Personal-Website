@@ -6,11 +6,10 @@
   width: 70%;
   position: relative;
   top: 8rem;
+  left: 20%;
 }
 
 .About-headshot img {
-  position: relative;
-  left: 35%;
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -44,28 +43,27 @@
   color: #e33617b0;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1200px) {
   .About-container {
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 3rem 0 0;
   }
 
   .About-headshot {
-    width: 20rem;
-  }
-
-  .About-headshot img {
-    position: relative;
-    left: 15%;
-    top: 2rem;
+    width: 35rem;
+    position: fixed;
+    left: 10%;
+    width: 22%;
+    top: 12rem;
   }
 
   .About-ParagraphCard {
     position: relative;
-    left: 5rem;
+    left: 35%;
     top: 0rem;
-    width: 100%;
+    width: 95%;
   }
 }

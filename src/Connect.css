@@ -1,5 +1,5 @@
 .Connect-name {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   position: relative;
   top: 0.5rem;
@@ -11,15 +11,15 @@
   left: 2rem;
   width: 50%;
   display: grid;
-  grid-template-columns: 8rem 8rem 8rem;
+  grid-template-columns: 5rem 5rem 5rem;
 }
 
 .Connect a > .fas.fa-envelope-square, .Connect a > .fab.fa-linkedin, .Connect a > .fab.fa-github {
   text-decoration: none;
   color: rgb(41, 38, 38);
   position: relative;
-  left: 5rem;
-  font-size: 5rem;
+  left: 2rem;
+  font-size: 2.5rem;
 }
 
 .Connect a:hover > .fab.fa-linkedin, .Connect a:hover > .fab.fa-github, .Connect a:hover > .fas.fa-envelope-square {
@@ -29,6 +29,10 @@
 
 @media screen and (min-width: 760px) {
   .Connect-logo-container {
-    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-columns: 5rem 5rem 5rem;
+  }
+
+  .Connect a > .fas.fa-envelope-square, .Connect a > .fab.fa-linkedin, .Connect a > .fab.fa-github {
+    left: 5rem;
   }
 }
