@@ -1,7 +1,3 @@
-/* .App {
-  text-align: center;
-} */
-
 body {
   font-family: 'Raleway', 'Avenir', 'Montserrat', sans-serif;
   font-weight: 300;
@@ -10,7 +6,6 @@ body {
 
 h1 {
   margin: 0px;
-  /* font-family: 'Archivo Black', sans-serif; */
   color: #e33517;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
